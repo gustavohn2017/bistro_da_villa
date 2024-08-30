@@ -1,0 +1,116 @@
+body {
+    background-color: #e7cba6;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+
+.container .navbar-brand .logoNav {
+    height: 100%;
+    max-width: 50px;
+    padding-bottom: 0;
+    margin-bottom: 0px;
+}
+
+
+/* Nav */
+.navbar {
+    background-color: #d2b48c;
+    font-family: "Comforter Brush", cursive;
+    font-size: 26px;
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+#header .navbar-brand {
+    padding-top: 10px;
+    font-size: larger;
+    color: #000000;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+#header .nav .nav-link {
+    color: #654321;
+}
+
+#header .nav .nav-link.active {
+    background-color: #fff;
+    color: #e7b87b;
+}
+
+/* Carousel Inner */
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Section Title */
+.section-title {
+    font-family: "Comforter Brush";
+    color: #8b4513; /* Marrom escuro para contraste */
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.section-title span {
+    color: #c76a13;
+    text-shadow: 3px 2px 0px rgba(0, 0, 0, 1);
+    font-weight: bolder;
+    font-style: italic;
+}
+
+/* Navigation */
+.nav-pills .nav-link {
+    background-color: #f5deb3;
+    color: #8b4513;
+    border: 1px solid #d2b48c;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-pills .nav-link:hover {
+    background-color: #d2b48c;
+}
+
+.nav-pills .nav-link.active,
+#fale-conosco button {
+    background-color: #8b4513;
+    color: #fff; 
+}
+
+.text-colored {
+    color: #8b4513;
+}
+
+/*Destacando o menu da página*/
+.col-md-10 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#tab-menu{
+    background-color: #e7b87b;
+
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+@media (max-width: 767) {
+    .carousel-item img{
+        height: 280px;
+    }
+    
+}
+
